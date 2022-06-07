@@ -29,8 +29,8 @@ I want to learn Front-End Development, because this profession can give me the o
 ## Skills:
 * HTML5, CSS3
 * Git, GitHub
-* VS Code
 * JavaScript Basics
+* VS Code
 
 ## Education and courses:
 1. JavaScript https://learn.javascript.ru/
