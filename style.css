@@ -1,9 +1,164 @@
-body {
-    background-color: powderblue;
-  }
-  h1 {
-    color: blue;
-  }
-  p {
-    color: red;
-  }
+ * {
+     box-sizing: border-box;
+ }
+ 
+ html {
+     scroll-behavior: smooth;
+ }
+ 
+ body {
+     font-family: 'League Gothic', sans-serif;
+     font-family: 'Homenaje', sans-serif;
+     font-size: 24px;
+     font-weight: 400;
+     line-height: 1.5;
+     color: #708090;
+     min-height: 100vh;
+     margin: 0;
+     padding: 0;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+ }
+ 
+ .header {
+     background-color: #000000;
+ }
+ 
+ .container {
+     max-width: 1440px;
+     margin: 0 auto;
+ }
+ 
+ .main-container {
+     display: flex;
+     flex-wrap: wrap;
+ }
+ 
+ .nav-list {
+     display: flex;
+     justify-content: flex-end;
+     align-items: center;
+     list-style: none;
+ }
+ 
+ .nav-link {
+     text-decoration: none;
+     color: #fbfdfb;
+     padding: 0 20px;
+     line-height: 50px;
+     transition: color 0.5s;
+ }
+ 
+ .nav-link:hover {
+     color: #851da5;
+ }
+ 
+ .section {
+     width: 50%;
+     padding: 20px;
+     padding-bottom: 30px;
+     font-weight: bold;
+ }
+ 
+ @media (max-width: 768px) {
+     .section {
+         width: 100%;
+     }
+ }
+ 
+ .section-profile {
+     width: 100%;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+     padding: 50px 30px 35px;
+ }
+ 
+ .section-item a {
+     color: #851da5;
+     text-decoration: none;
+     transition: color 0.5s;
+ }
+ 
+ .section-item a:hover {
+     color: #000000;
+ }
+ 
+ .section-item {
+     list-style-type: none;
+ }
+ 
+ .section-item:before {
+     content: "\2742 ";
+     /* Добавляем в качестве маркера символ */
+ }
+ 
+ .main-title {
+     font-size: 36px;
+     font-weight: bold;
+     text-transform: uppercase;
+     letter-spacing: 5px;
+     color: #000000;
+     text-align: center;
+ }
+ 
+ .section-title {
+     font-size: 24px;
+     font-weight: bold;
+     text-transform: uppercase;
+     letter-spacing: 5px;
+     color: #851da5;
+     background-color: #000000;
+     text-align: center;
+ }
+ 
+ .section-profile {
+     width: 100%;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+     padding: 50px 30px 30px;
+ }
+ 
+ .section-profile-title {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-content: center;
+     text-align: center;
+     text-transform: uppercase;
+ }
+ 
+ .section-profile-logo {
+     width: 200px;
+     height: 200px;
+     object-fit: cover;
+     border-radius: 50%;
+     box-shadow: 0 1px 4px #000000;
+     filter: grayscale(0.2) brightness(1.05);
+     transition: .3s;
+ }
+ 
+ footer {
+     background-color: #000000;
+     color: #ffffff;
+ }
+ 
+ .section-footer {
+     text-transform: none;
+     margin-right: 950px;
+     font-weight: 200;
+ }
+ 
+ .section-rsschool-logo {
+     width: 150px;
+ }
+ 
+ .section-profile-footer {
+     width: 100%;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+     padding: 10px;
+ }
