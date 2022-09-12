@@ -297,3 +297,8 @@
      transition: width 0.5s;
      /* Время эффекта */
  }
+
+ .codewars{
+    list-style-type: none;
+ }
+ 
